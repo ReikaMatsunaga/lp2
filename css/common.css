@@ -6,6 +6,8 @@ body {
   letter-spacing: 1px;
   word-break: break-all;
   color: #888;
+  /* background:red; */
+  /* overflow: hidden; */
 }
 
 a {
@@ -22,6 +24,7 @@ li {
 header {
   width: 100%;
   display: inline-block;
+    overflow: hidden;
 }
 
 header .logo {
@@ -71,6 +74,7 @@ header .drawer {
 }
 
 /* #####トップ＃＃＃＃＃＃ */
+
 
 .top {
   text-align: center;
@@ -174,9 +178,11 @@ header .drawer {
 
 /* #####intro######*/
 
+
 .section {
   position: relative;
   padding: 150px 0;
+  /* display:none; */
 }
 
 .section::after {
@@ -190,6 +196,7 @@ header .drawer {
   top: 0;
   left: 0;
   z-index: 1;
+  /* display:none; */
 }
 
 .intro{
@@ -616,7 +623,9 @@ footer {
     width:94%;
     margin:0 auto;
   }
-
+  .section{
+    width:unset;
+  }
   .faq .txt{
     width:unset;
     /* margin:0; */
