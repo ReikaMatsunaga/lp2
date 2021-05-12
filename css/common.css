@@ -192,6 +192,10 @@ header .drawer {
   z-index: 1;
 }
 
+.intro{
+  background:#f5f6f7;
+}
+
 .intro .inner {
   position: relative;
   z-index: 2;
@@ -364,6 +368,7 @@ p {
   padding: 60px;
   width: 80%;
   margin: 0 auto;
+
 }
 
 .news .txt ul li {
@@ -607,10 +612,26 @@ footer {
     width: 85px;
   }
 
+  .how_to{
+    width:94%;
+    margin:0 auto;
+  }
+
+  .faq .txt{
+    width:unset;
+    /* margin:0; */
+  
+  }
+  
   .faq .more {
     width: 30%;
   }
-
+  
+  .news .txt{
+    width:unset;
+    margin:0;
+    
+  }
   .contact_btn .btn {
     width: unset;
     margin: 0 150px;
